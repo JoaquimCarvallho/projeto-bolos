@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                "Reply-To: $email\r\n" .
                "Content-Type: text/plain; charset=UTF-8";
 
-    // Tenta enviar o e-mail
+    // Tenta enviar o e-mail, mas só tenta mesmo pq essa parte não foi feita! 
     if (mail($to, $subject, $body, $headers)) {
         echo "<script>alert('Mensagem enviada com sucesso!'); window.location.href='/projeto-bolos/public/contato.php';</script>";
     } else {
