@@ -1,8 +1,19 @@
-Pronto grande Teacher! Aqui a abaixo ta toda a parte do banco de dados 
+![image](https://github.com/user-attachments/assets/ccdc760a-43cf-4966-8b7f-fa87730a502a)![image](https://github.com/user-attachments/assets/26c6c5f1-8e02-46fd-9c2f-e950fe015ed3)Pronto grande Teacher! Lá no final tem toda a parte do banco de dados!
 Print---- Diagrama ![image](https://github.com/user-attachments/assets/5ae33fc3-0040-4084-9cc4-73f07d24aebf)
 Print---- Criptografia Senha Usuarios-- ![image](https://github.com/user-attachments/assets/45313ddc-5501-44d0-b640-efd050573a1e)
 Print---- Modal do Editar Funcionários "Consertada"----![image](https://github.com/user-attachments/assets/917cec37-e9d6-4398-a82f-8b8f11e753e1)
 Print---- Painel Administração ![image](https://github.com/user-attachments/assets/7efbfdf8-67f6-439f-a5d5-17cc070406d9)
+Comprovação de tudo que foi pedido questão por questão logo a baixo.:
+Print---- Tela Inicial, onde aparece somente o botão entrar: ![image](https://github.com/user-attachments/assets/d990bc0d-6530-491f-9f9f-c9a18f30d0f2)
+Print---- Após Logar aparece o Botão Adiministração ![image](https://github.com/user-attachments/assets/77b3dba3-74d4-44cb-abb0-dc7e04f266d8)
+Print---- Area Administrativa ![image](https://github.com/user-attachments/assets/ce4e078b-9fa4-4c82-b353-fba273c5ff91)
+Print---- Area Gerenciar Equipe(editar, visualizar ou excluir) ![image](https://github.com/user-attachments/assets/5103283a-a7b0-4987-a8a6-3f80fe5bf739)
+Print---- Area Editar Funcionario ![image](https://github.com/user-attachments/assets/71a4e981-44fd-428c-8f59-0e9c5481e867)
+Print---- Mural de Funcionários ![image](https://github.com/user-attachments/assets/a930bc95-11d4-4846-9cce-5fa0cb7c6e32)
+Print---- Area Cadastrar Bolos (restrita a usuarios) ![image](https://github.com/user-attachments/assets/d475225f-8dd9-4ac7-aad3-007b12c06519)
+Print---- Area Gerenciar Bolos(editar, visualizar ou excluir)![image](https://github.com/user-attachments/assets/c8efac4e-cffb-4f09-80f9-547617fed441)
+Print---- Area Editar Bolos ![image](https://github.com/user-attachments/assets/20f4d574-f75d-4c81-abaf-7136885c693a)
+Print---- Area Catalogo Bolos ![image](https://github.com/user-attachments/assets/ea835fa0-1797-4970-873a-211050fcb7f3)
 
 
 -- Criando o Banco de Dados!
@@ -47,3 +58,5 @@ CREATE TABLE mensagens_contato (
     mensagem TEXT NOT NULL,
     data_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
