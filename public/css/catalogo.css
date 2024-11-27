@@ -1,0 +1,85 @@
+/* Layout geral do catálogo */
+.catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilo de cada bolo */
+.bolo-box {
+    background-color: #fff6f1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bolo-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagens dos bolos */
+.bolo-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    visibility: visible;
+    position: static !important; /* Corrige problemas de posicionamento */
+    left: auto !important;       /* Reseta o deslocamento */
+}
+
+/* Título do bolo */
+.bolo-box h3 {
+    font-size: 18px;
+    color: #7f462c;
+    margin-bottom: 10px;
+}
+
+/* Botão "Ver Mais" */
+.bolo-box .button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #7f462c;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.bolo-box .button:hover {
+    background-color: #5d3522;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .catalogo-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .bolo-box img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .catalogo-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .bolo-box img {
+        height: 120px;
+    }
+
+    .bolo-box h3 {
+        font-size: 16px;
+    }
+}

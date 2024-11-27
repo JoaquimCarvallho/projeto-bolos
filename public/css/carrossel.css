@@ -1,0 +1,129 @@
+/* Slick Carousel - Botões de Navegação */
+.slick-prev, .slick-next {
+    font-size: 0;
+    background-color: #7f462c;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Posição dos pontos de navegação */
+.slick-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slick-dots li button:before {
+    color: #7f462c;
+    font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #f4c2c2;
+}
+
+/* Cards do carrossel */
+.carrossel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrossel .card {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 0 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.carrossel .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.carrossel .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.carrossel .card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #7f462c;
+    font-family: 'Georgia', serif;
+}
+
+.carrossel .card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.carrossel .card a {
+    background-color: #f4c2c2;
+    color: #7f462c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.carrossel .card a:hover {
+    background-color: #7f462c;
+    color: #fff;
+}
+
+/* Ajustes de responsividade para o carrossel */
+@media (max-width: 768px) {
+    .carrossel .card {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .slick-prev, .slick-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carrossel .card {
+        padding: 10px;
+    }
+
+    .carrossel .card h3 {
+        font-size: 18px;
+    }
+
+    .carrossel .card p {
+        font-size: 12px;
+    }
+}
