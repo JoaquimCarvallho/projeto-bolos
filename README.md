@@ -1,9 +1,13 @@
-![image](https://github.com/user-attachments/assets/ccdc760a-43cf-4966-8b7f-fa87730a502a)![image](https://github.com/user-attachments/assets/26c6c5f1-8e02-46fd-9c2f-e950fe015ed3)Pronto grande Teacher! Lá no final tem toda a parte do banco de dados!
+Pronto grande Teacher! Lá no final tem toda a parte do banco de dados!
+
 Print---- Diagrama ![image](https://github.com/user-attachments/assets/5ae33fc3-0040-4084-9cc4-73f07d24aebf)
 Print---- Criptografia Senha Usuarios-- ![image](https://github.com/user-attachments/assets/45313ddc-5501-44d0-b640-efd050573a1e)
+
 Print---- Modal do Editar Funcionários "Consertada"----![image](https://github.com/user-attachments/assets/917cec37-e9d6-4398-a82f-8b8f11e753e1)
 Print---- Painel Administração ![image](https://github.com/user-attachments/assets/7efbfdf8-67f6-439f-a5d5-17cc070406d9)
 Comprovação de tudo que foi pedido questão por questão logo a baixo.:
+
+
 Print---- Tela Inicial, onde aparece somente o botão entrar: ![image](https://github.com/user-attachments/assets/d990bc0d-6530-491f-9f9f-c9a18f30d0f2)
 Print---- Após Logar aparece o Botão Adiministração ![image](https://github.com/user-attachments/assets/77b3dba3-74d4-44cb-abb0-dc7e04f266d8)
 Print---- Area Administrativa ![image](https://github.com/user-attachments/assets/ce4e078b-9fa4-4c82-b353-fba273c5ff91)
