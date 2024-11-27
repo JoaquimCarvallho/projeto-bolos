@@ -3,10 +3,10 @@ require '../config/database.php';
 
 // Verifica se o ID do funcionário foi passado
 if (isset($_GET['id'])) {
-    $id = intval($_GET['id']); // Sanitiza o ID para evitar ataques
+    $id = intval($_GET['id']); 
 
     try {
-        // Deleta o funcionário do banco de dados
+        // Deleta o querido funcionario
         $stmt = $pdo->prepare("DELETE FROM funcionarios WHERE id = ?");
         $stmt->execute([$id]);
 
